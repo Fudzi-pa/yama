@@ -132,7 +132,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		if result <= 1 {
+		if result < 1 {
 			log.Fatal("Римские цифры  не <1")
 		}
 		resultInRomeNumber, _ := arabicToRomeNumbers[result]
